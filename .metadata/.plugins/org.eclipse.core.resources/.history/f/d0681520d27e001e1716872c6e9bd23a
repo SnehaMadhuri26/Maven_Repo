@@ -1,0 +1,53 @@
+package common;
+
+import org.testng.annotations.Test;
+
+import io.cucumber.java.Before;
+
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterSuite;
+
+public class Base {
+	public static WebDriver driver;
+  @Test
+  @Parameters ({"browser","url"})
+  @BeforeSuite
+  public void beforeSuite(String Browsernm,String url) {
+	  if(Browsernm.equalsIgnoreCase("Firefox"))
+	  {
+	System.setProperty("webdriver.gecko.driver", "C:\\Users\\002QU9744\\Documents\\SELENIUM\\Drivers\\geckodriver-v0.33.0-win64\\geckodriver.exe"); 
+		driver = new FirefoxDriver();
+	  }
+	  else if(Browsernm.equalsIgnoreCase("Chrome")) {
+		// TODO Auto-generated method stub
+			System.setProperty("webdriver.chrome.driver",
+					  "C:\\Users\\002QU9744\\Documents\\SELENIUM\\Drivers\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe" );
+			driver = new ChromeDriver();
+		  
+	  }
+	  else if(Browsernm.equalsIgnoreCase("edge")) {
+		  System.setProperty("webdriver.Edge.driver","C:\\Users\\002QU9744\\Documents\\SELENIUM\\Drivers\\msedgedriver.exe");
+			 driver = new EdgeDriver();
+		  
+	  }
+	  driver.manage().window().maximize();
+	  driver.get(url);
+  }
+
+  @AfterSuite
+  public void afterSuite() {
+	 driver.quit();
+  }
+  
+@DataProvider(name="Allbooks")
+public Object[][] newval() {
+	System.out.println("sdafs");
+	new asdf[][]= {{"abc","123"},{"cdf","452"},{"ghj","657"}};
+}
+}

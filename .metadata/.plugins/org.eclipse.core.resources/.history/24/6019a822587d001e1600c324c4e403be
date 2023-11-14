@@ -1,0 +1,12 @@
+package Files;
+
+import org.junit.Test;
+
+public class DynamicJson2 {
+@Test
+public void abc() {
+}
+@Test
+public void abc2() {
+}
+}

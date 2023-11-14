@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Alltypes.java&apos; to &apos;API_Testing_&amp;_Cucumber/src/Other_Programs&apos;&#x0D;&#x0A;- Original project: &apos;Junit_and_other_all_programs&apos;&#x0D;&#x0A;- Destination element: &apos;API_Testing_&amp;_Cucumber/src/Other_Programs&apos;&#x0D;&#x0A;- Original element: &apos;Alltypes.java&apos;" description="Copy compilation unit" destination="=API_Testing_&amp;_Cucumber/src=/optional=/true=/=/maven.pomderived=/true=/&lt;Other_Programs" element1="/src=/optional=/true=/=/maven.pomderived=/true=/&lt;{Alltypes.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1698884923959" units="1" version="1.0"/>
+</session>

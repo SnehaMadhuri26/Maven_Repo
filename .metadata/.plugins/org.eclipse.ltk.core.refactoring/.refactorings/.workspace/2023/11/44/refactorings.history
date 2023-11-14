@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;API_Testing_through_JAVA&apos; to &apos;API_Testing_&amp;_Cucumber&apos;" description="Rename resource &apos;API_Testing_through_JAVA&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/API_Testing_through_JAVA" name="API_Testing_&amp;_Cucumber" stamp="1698881931633" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;JAVA&apos; to &apos;Junit_and_other_all_programs&apos;" description="Rename resource &apos;JAVA&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JAVA" name="Junit_and_other_all_programs" stamp="1698882018371" updateReferences="true"/>
+</session>
